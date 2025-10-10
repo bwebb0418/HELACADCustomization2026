@@ -35,7 +35,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If LCase(blkref.EffectiveName) = "hel_stamps-2023" Then
+                If LCase(blkref.EffectiveName) = "hel_stamps-2026" Then
                     dynprops = blkref.GetDynamicBlockProperties
                     If onestamp = True Then
                         blkref.Delete()
@@ -55,7 +55,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If Left(LCase(blkref.EffectiveName), 9) = "hel_2023_" Then
+                If Left(LCase(blkref.EffectiveName), 9) = "hel_2026_" Then
                     attribs = blkref.GetAttributes
                     For I = LBound(attribs) To UBound(attribs)
                         If LCase(Thisdrawing.GetVariable("users1")) = "inds" Then
@@ -153,7 +153,7 @@ Public Class ClsIssues
 
         rotation = 0
 
-        blkname = "hel_stamps-2023"
+        blkname = "hel_stamps-2026"
         If check_routines.Blkchk(blkname) = True Then
 
         Else
@@ -245,7 +245,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref2 = obj
-                If Left(LCase(blkref2.EffectiveName), 9) = "hel_2023_" Then
+                If Left(LCase(blkref2.EffectiveName), 9) = "hel_2026_" Then
                     attribs = blkref2.GetAttributes
                     For I = LBound(attribs) To UBound(attribs)
                         If LCase(Thisdrawing.GetVariable("users1")) = "inds" Then
@@ -363,7 +363,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If LCase(blkref.EffectiveName) = "hel_stamps-2023" Then
+                If LCase(blkref.EffectiveName) = "hel_stamps-2026" Then
                     dynprops = blkref.GetDynamicBlockProperties
                     '' ''If onestamp = True Then
                     '' ''    blkref.Delete()
@@ -386,7 +386,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If Left(LCase(blkref.EffectiveName), 9) = "hel_2023_" Then
+                If Left(LCase(blkref.EffectiveName), 9) = "hel_2026_" Then
                     attribs = blkref.GetAttributes
                     For I = LBound(attribs) To UBound(attribs)
                         If LCase(Thisdrawing.GetVariable("users1")) = "inds" Then
@@ -502,7 +502,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If LCase(blkref.EffectiveName) = "hel_stamps-2023" Then
+                If LCase(blkref.EffectiveName) = "hel_stamps-2026" Then
                     dynprops = blkref.GetDynamicBlockProperties
 
                     For I = LBound(dynprops) To UBound(dynprops)
@@ -523,7 +523,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If Left(LCase(blkref.EffectiveName), 9) = "hel_2023_" Then
+                If Left(LCase(blkref.EffectiveName), 9) = "hel_2026_" Then
                     attribs = blkref.GetAttributes
                     For I = LBound(attribs) To UBound(attribs)
                         If LCase(Thisdrawing.GetVariable("users1")) = "inds" Then
@@ -611,7 +611,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If LCase(blkref.EffectiveName) = "hel_stamps-2023" Then
+                If LCase(blkref.EffectiveName) = "hel_stamps-2026" Then
                     dynprops = blkref.GetDynamicBlockProperties
                     '' ''If onestamp = True Then
                     '' ''    blkref.Delete()
@@ -635,7 +635,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If Left(LCase(blkref.EffectiveName), 9) = "hel_2023_" Then
+                If Left(LCase(blkref.EffectiveName), 9) = "hel_2026_" Then
                     attribs = blkref.GetAttributes
                     For I = LBound(attribs) To UBound(attribs)
                         If LCase(Thisdrawing.GetVariable("users1")) = "inds" Then
@@ -729,7 +729,7 @@ Public Class ClsIssues
         For Each obj In Thisdrawing.PaperSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If LCase(blkref.EffectiveName) = "hel_stamps-2023" Then
+                If LCase(blkref.EffectiveName) = "hel_stamps-2026" Then
                     dynprops = blkref.GetDynamicBlockProperties
                     '' ''If onestamp = True Then
                     '' ''    blkref.Delete()

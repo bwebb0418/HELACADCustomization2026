@@ -31,7 +31,7 @@ Public Class ClsBlocks1
         Dim blockinsert As New clsBlock_insert
         Dim doc As Document = Application.DocumentManager.MdiActiveDocument
 
-        blkname = "hel_holddown-2023"
+        blkname = "hel_holddown-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -59,7 +59,7 @@ nd:
         Dim blkid As ObjectId
         Dim blockinsert As New clsBlock_insert
         Dim blkscl As New clsutilities
-        blkname = "hel_water-2023"
+        blkname = "hel_water-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -94,7 +94,7 @@ nd:
         Dim blkid As ObjectId
 
 
-        blkname = "hel_revtri-2023"
+        blkname = "hel_revtri-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -184,7 +184,7 @@ nd:
         blkscl = utilities.getscale
         If blkscl = 0 Then blkscl = 1
 
-        blkname = "hel_dbl_arrow-2023"
+        blkname = "hel_dbl_arrow-2026"
 
         If check_routines.blkchk(blkname) = True Then
 
@@ -246,7 +246,7 @@ nd:
         If blkscl = 0 Then blkscl = 1
 
         inspoint = utilities.getpoint("Select Tag Insertion Point: ")
-        blkname = "hel_dia_tag-2023"
+        blkname = "hel_dia_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -282,7 +282,7 @@ nd:
         If blkscl = 0 Then blkscl = 1
 
         inspoint = utilities.getpoint("Select Tag Insertion Point: ")
-        blkname = "hel_hex_tag-2023"
+        blkname = "hel_hex_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -323,7 +323,7 @@ nd:
         If blkscl = 0 Then blkscl = 1
 
         inspoint = utilities.getpoint("Select Tag Insertion Point: ")
-        blkname = "hel_cir_tag-2023"
+        blkname = "hel_cir_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -363,7 +363,7 @@ nd:
         inspoint = utilities.getpoint("Select Tag Insertion Point: ")
 
 
-        blkname = "hel_squ_tag-2023"
+        blkname = "hel_squ_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -402,7 +402,7 @@ nd:
         inspoint = utilities.getpoint("Select Tag Insertion Point: ")
 
 
-        blkname = "hel_tri_tag-2023"
+        blkname = "hel_tri_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -442,7 +442,7 @@ nd:
         inspoint = utilities.getpoint("Select Tag Insertion Point: ")
 
 
-        blkname = "hel_elip_tag-2023"
+        blkname = "hel_elip_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -481,7 +481,7 @@ nd:
         inspoint = utilities.getpoint("Select Gravel Insertion point: ")
 
 
-        blkname = "hel_gravel-2023"
+        blkname = "hel_gravel-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else

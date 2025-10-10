@@ -103,7 +103,7 @@ Public Class ClsTitles_Tags
                     ClsBlock_insert.BLKSFFACT = 2 / 3
                 End If
 
-                blkname = "hel_sym_2p" & opclo & "-2023"
+                blkname = "hel_sym_2p" & opclo & "-2026"
                 If check_routines.Blkchk(blkname) = True Then
 
                 Else
@@ -122,7 +122,7 @@ Public Class ClsTitles_Tags
                 Clsblock_jig.BasePt = blkbubble.Position
                 blkbubble.LayerId = check_routines.Layercheck("~-TSYM3")
 
-                blkname = "hel_sym_secend-2023"
+                blkname = "hel_sym_secend-2026"
                 If check_routines.Blkchk(blkname) = True Then
 
                 Else
@@ -140,7 +140,7 @@ Public Class ClsTitles_Tags
                 blksecend = tr.GetObject(objid, OpenMode.ForWrite)
 
 
-                blkname = "hel_sym_secarr-2023"
+                blkname = "hel_sym_secarr-2026"
                 If check_routines.Blkchk(blkname) = True Then
 
                 Else
@@ -263,7 +263,7 @@ Public Class ClsTitles_Tags
                 ClsBlock_insert.BLKSFFACT = 2 / 3
             End If
 
-            blkname = "hel_sym_2p" & opclo & "-2023"
+            blkname = "hel_sym_2p" & opclo & "-2026"
             If check_routines.Blkchk(blkname) = True Then
 
             Else
@@ -419,7 +419,7 @@ nd:
         Dim blkscl As New Clsutilities
 
         ClsBlock_insert.BLKSFFACT = 1
-        blkname = "hel_dmy_title-2023"
+        blkname = "hel_dmy_title-2026"
         If check_routines.Blkchk(blkname) = True Then
 
         Else
@@ -433,7 +433,7 @@ nd:
         If dmyobjid = Nothing Then Exit Sub
         tr = db.TransactionManager.StartTransaction
 
-        blkname = "hel_sym_title-2023"
+        blkname = "hel_sym_title-2026"
         If check_routines.Blkchk(blkname) = True Then
 
         Else
@@ -558,7 +558,7 @@ nd:
 
         opclo = LCase(Strings.Left(pkr.StringResult, 1))
 
-        blkname = "hel_dmy_2pt-2023"
+        blkname = "hel_dmy_2pt-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -572,7 +572,7 @@ nd:
         tr.Commit()
         tr = db.TransactionManager.StartTransaction
 
-        blkname = "hel_sym_2p" & opclo & "t-2023"
+        blkname = "hel_sym_2p" & opclo & "t-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else

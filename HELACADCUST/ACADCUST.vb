@@ -99,7 +99,7 @@ Public Class Customization
         'Dim hkey, key, shl
         Dim retval As MsgBoxResult
         Dim path = Thisdrawing.Path
-        Dim userpath = Environ("Appdata") & "\Autodesk\AutoCAD 2023\R24.2\enu\Plotters\Plot Styles"
+        Dim userpath = Environ("Appdata") & "\Autodesk\AutoCAD 2026\R24.2\enu\Plotters\Plot Styles"
         Dim objshell
         Dim objLink
         'Dim objscr
@@ -205,8 +205,8 @@ Public Class Customization
 
                     objshell = CreateObject("WScript.Shell")
                     objLink = objshell.CreateShortcut(userpath & "\HELCTB.lnk")
-                    'objLink.Arguments = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2023.bundle\Contents\Resources\Plotters\CTB\"
-                    objLink.TargetPath = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2023.bundle\Contents\Resources\Plotters\CTB\"
+                    'objLink.Arguments = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2026.bundle\Contents\Resources\Plotters\CTB\"
+                    objLink.TargetPath = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2026.bundle\Contents\Resources\Plotters\CTB\"
                     objLink.Save
                 Catch ex As Exception
 
@@ -218,12 +218,12 @@ Public Class Customization
 
                     objshell = CreateObject("WScript.Shell")
                     objLink = objshell.CreateShortcut(userpath & "\CustomPentable.lnk")
-                    'objLink.Arguments = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2023.bundle\Contents\Resources\Plotters\CTB\"
+                    'objLink.Arguments = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2026.bundle\Contents\Resources\Plotters\CTB\"
                     objLink.TargetPath = path
                     objLink.Save
                     objLink = Nothing
                     objLink = objshell.CreateShortcut(userpath & "\HELCTB.lnk")
-                    objLink.TargetPath = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2023.bundle\Contents\Resources\Plotters\CTB\"
+                    objLink.TargetPath = Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2026.bundle\Contents\Resources\Plotters\CTB\"
                     objLink.Save
                     objLink = Nothing
                     objshell = Nothing
@@ -240,10 +240,10 @@ Public Class Customization
                 objshell = CreateObject("WScript.Shell")
                 objshell.SendKeys("{ESC}")
                 Try
-                    objshell.run(Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2023.bundle\Contents\Resources\Plotters\plotscript2.vbs")
+                    objshell.run(Environ("ALLUSERSPROFILE") & "\Autodesk\ApplicationPlugins\helacad2026.bundle\Contents\Resources\Plotters\plotscript2.vbs")
                 Catch ex As Exception
                     WritetoCMD.WritetoCMD("Local script error, trying network")
-                    objshell.run("m:\structural\r2023\Plotters\plotscript2.vbs")
+                    objshell.run("m:\structural\r2026\Plotters\plotscript2.vbs")
                 End Try
 
             End If
@@ -460,7 +460,7 @@ rerun:
         doc.SendStringToExecute("Cleanscreenoff ", True, False, False)
         Dim ed As Editor = doc.Editor
         ed.WriteMessage(vbLf & "HEL Customization Loaded" & vbLf & "Version {0}.{1}.{2}" & vbLf, My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build) ', My.Application.Info.Version.Revision)
-        Application.SetSystemVariable("trustedpaths", "C:\ProgramData\AutoDesk\ApplicationPlugins\helacad2023.bundle\Contents...;M:\Structural\r2023\...")
+        Application.SetSystemVariable("trustedpaths", "C:\ProgramData\AutoDesk\ApplicationPlugins\helacad2026.bundle\Contents...;M:\Structural\r2026\...")
     End Sub
 
 
@@ -920,12 +920,12 @@ nd:
         Dim ed As Editor = doc.Editor
         ed.WriteMessage("SteelPlus Menu Loaded" & vbLf)
         Try
-            mg = Application.MenuGroups.item("HEL-ACAD-2023")
+            mg = Application.MenuGroups.item("HEL-ACAD-2026")
 
         Catch
-            Application.MenuGroups.load("HEL-ACAD-2023.cuix", False)
+            Application.MenuGroups.load("HEL-ACAD-2026.cuix", False)
         End Try
-        ed.WriteMessage("HEL-ACAD-2023 Menu Loaded")
+        ed.WriteMessage("HEL-ACAD-2026 Menu Loaded")
     End Sub
 
     Public Function License_Check() As Boolean

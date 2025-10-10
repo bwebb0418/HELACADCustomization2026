@@ -38,7 +38,7 @@ Public Class ClsBlockRoutines
                 Else
                     blkscl = blkref.XScaleFactor
                 End If
-                If blkref.IsDynamicBlock And Left(blkref.EffectiveName, 13) <> "hel_shearwall-2023" And blkref.EffectiveName <> "hel_sym_secarr-2023" Then
+                If blkref.IsDynamicBlock And Left(blkref.EffectiveName, 13) <> "hel_shearwall-2026" And blkref.EffectiveName <> "hel_sym_secarr-2026" Then
                     blkref2 = Thisdrawing.ModelSpace.InsertBlock(blkref.InsertionPoint, blkref.EffectiveName, blkscl, blkscl, blkscl, blkref.Rotation)
                     dynprops = blkref.GetDynamicBlockProperties
                     dynprops2 = blkref2.GetDynamicBlockProperties
@@ -69,7 +69,7 @@ Public Class ClsBlockRoutines
         For Each obj In Thisdrawing.ModelSpace
             If TypeOf obj Is AcadBlockReference Then
                 blkref = obj
-                If blkref.IsDynamicBlock And blkref.EffectiveName = "hel_rec_tag-2023" Then
+                If blkref.IsDynamicBlock And blkref.EffectiveName = "hel_rec_tag-2026" Then
                     dynprops = blkref.GetDynamicBlockProperties
                     For i = 0 To UBound(dynprops)
                         If dynprops(i).PropertyName = "Distance" Or dynprops(i).PropertyName = "Distance1" Then
@@ -109,9 +109,9 @@ Public Class ClsBlockRoutines
         For Each obj In Thisdrawing.ModelSpace
             If TypeOf obj Is AcadBlockReference Then
                 BLOCK = obj
-                If BLOCK.EffectiveName = "hel_steel_beam_i-2023" Or BLOCK.EffectiveName = "hel_steel_beam-2023" Or
-                    BLOCK.EffectiveName = "hel_wood_beam_i-2023" Or BLOCK.EffectiveName = "hel_wood_beam-2023" Or
-                    BLOCK.EffectiveName = "hel_girt_tag_i-2023" Or BLOCK.EffectiveName = "hel_girt_tag-2023" Then
+                If BLOCK.EffectiveName = "hel_steel_beam_i-2026" Or BLOCK.EffectiveName = "hel_steel_beam-2026" Or
+                    BLOCK.EffectiveName = "hel_wood_beam_i-2026" Or BLOCK.EffectiveName = "hel_wood_beam-2026" Or
+                    BLOCK.EffectiveName = "hel_girt_tag_i-2026" Or BLOCK.EffectiveName = "hel_girt_tag-2026" Then
                     ATTRIBS = BLOCK.GetAttributes
                     For i = 0 To UBound(ATTRIBS)
                         ATTRIBS(i).Height = Thisdrawing.ActiveTextStyle.Height

@@ -64,9 +64,9 @@ Public Class ClsBlocks2
         End If
 
         If Thisdrawing.GetVariable("Userr3") = 1 Then
-            blkname = "hel_wood_beam-2023"
+            blkname = "hel_wood_beam-2026"
         Else
-            blkname = "hel_wood_beam_i-2023"
+            blkname = "hel_wood_beam_i-2026"
         End If
 
         If check_routines.Blkchk(blkname) = True Then
@@ -158,9 +158,9 @@ nd:
         End If
 
         If Thisdrawing.GetVariable("Userr3") = 1 Then
-            blkname = "hel_girt_tag-2023"
+            blkname = "hel_girt_tag-2026"
         Else
-            blkname = "hel_girt_tag_i-2023"
+            blkname = "hel_girt_tag_i-2026"
         End If
 
         If check_routines.Blkchk(blkname) = True Then
@@ -246,10 +246,10 @@ nd:
         rotation = utilities.Getrotation(inspoint, secpoint)
         If blkscl = 0 Then blkscl = 1
 
-        If check_routines.Blkchk("hel_brklin-2023") = True Then
-            blkname = "hel_brklin-2023"
+        If check_routines.Blkchk("hel_brklin-2026") = True Then
+            blkname = "hel_brklin-2026"
         Else
-            blkname = "hel_brklin-2023.dwg"
+            blkname = "hel_brklin-2026.dwg"
         End If
 
         blk = space.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, rotation)
@@ -311,10 +311,10 @@ sizer:
             size = 6
         End If
         On Error GoTo 0
-        If check_routines.Blkchk("hel_shearwall" & size & "-2023") = True Then
-            blkname = "hel_shearwall" & size & "-2023"
+        If check_routines.Blkchk("hel_shearwall" & size & "-2026") = True Then
+            blkname = "hel_shearwall" & size & "-2026"
         Else
-            blkname = "hel_shearwall" & size & "-2023.dwg"
+            blkname = "hel_shearwall" & size & "-2026.dwg"
         End If
         On Error GoTo nd
         inspoint = utilities.Getpoint("Select Shearwall Insertion Point: ")
@@ -358,10 +358,10 @@ sizer:
 
         'Inserts the Shearwall Tag
 
-        If check_routines.Blkchk("hel_shearwall_tag-2023") = True Then
-            blkname = "hel_shearwall_tag-2023"
+        If check_routines.Blkchk("hel_shearwall_tag-2026") = True Then
+            blkname = "hel_shearwall_tag-2026"
         Else
-            blkname = "hel_shearwall_tag-2023.dwg"
+            blkname = "hel_shearwall_tag-2026.dwg"
         End If
 
         line = Thisdrawing.ModelSpace.AddLine(inspoint, secpoint)
@@ -408,7 +408,7 @@ nd:
         scl = Thisdrawing.GetVariable("userr2")
 
         For Each blk In blks
-            If Strings.Left(blk.Name, 19) = "hel_shearwall4-2023" Or Strings.Left(blk.Name, 19) = "hel_shearwall6-2023" Then
+            If Strings.Left(blk.Name, 19) = "hel_shearwall4-2026" Or Strings.Left(blk.Name, 19) = "hel_shearwall6-2026" Then
                 size = Strings.Left(blk.Name, 14)
                 size = Strings.Right(size, 1)
                 If uni = "1" Then
@@ -553,16 +553,16 @@ nd:
         End If
 
         If Thisdrawing.GetVariable("Userr3") = 1 Then
-            If check_routines.Blkchk("hel_" & material & "_joist-2023") = True Then
-                blkname = "hel_" & material & "_joist-2023"
+            If check_routines.Blkchk("hel_" & material & "_joist-2026") = True Then
+                blkname = "hel_" & material & "_joist-2026"
             Else
-                blkname = "hel_" & material & "_joist-2023.dwg"
+                blkname = "hel_" & material & "_joist-2026.dwg"
             End If
         Else
-            If check_routines.Blkchk("hel_" & material & "_joist_i-2023") = True Then
-                blkname = "hel_" & material & "_joist_i-2023"
+            If check_routines.Blkchk("hel_" & material & "_joist_i-2026") = True Then
+                blkname = "hel_" & material & "_joist_i-2026"
             Else
-                blkname = "hel_" & material & "_joist_i-2023.dwg"
+                blkname = "hel_" & material & "_joist_i-2026.dwg"
             End If
         End If
 
@@ -691,10 +691,10 @@ sizer:
 
             blks = Thisdrawing.Blocks
 
-            If check_routines.Blkchk("hel_post" & size & "-2023") = True Then
-                blkname = "hel_post" & size & "-2023"
+            If check_routines.Blkchk("hel_post" & size & "-2026") = True Then
+                blkname = "hel_post" & size & "-2026"
             Else
-                blkname = "hel_post" & size & "-2023.dwg"
+                blkname = "hel_post" & size & "-2026.dwg"
             End If
 
             inspoint = utilities.Getpoint("Select Post Insertion Point: ")
@@ -793,9 +793,9 @@ sizer:
         End If
 
         If Thisdrawing.GetVariable("Userr3") = 1 Then
-            blkname = "hel_steel_beam-2023"
+            blkname = "hel_steel_beam-2026"
         Else
-            blkname = "hel_steel_beam_i-2023"
+            blkname = "hel_steel_beam_i-2026"
         End If
 
         If check_routines.Blkchk(blkname) = True Then
@@ -878,9 +878,9 @@ nd:
         End If
 
         If Thisdrawing.GetVariable("Userr3") = 1 Then
-            blkname = "hel_steel_beam-2023"
+            blkname = "hel_steel_beam-2026"
         Else
-            blkname = "hel_steel_beam_i-2023"
+            blkname = "hel_steel_beam_i-2026"
         End If
 
         If check_routines.Blkchk(blkname) = True Then
@@ -956,10 +956,10 @@ nd:
         line1.Visible = False
         line2.Visible = False
 
-        If check_routines.Blkchk("hel_moment_tag-2023") = True Then
-            blkname = "hel_moment_tag-2023"
+        If check_routines.Blkchk("hel_moment_tag-2026") = True Then
+            blkname = "hel_moment_tag-2026"
         Else
-            blkname = "hel_moment_tag-2023.dwg"
+            blkname = "hel_moment_tag-2026.dwg"
         End If
 
         blkscl = utilities.Getscale * Thisdrawing.GetVariable("userr1")
@@ -1026,10 +1026,10 @@ nd:
             rotation = utilities.Getrotation(inspoint, secpoint)
         End If
 
-        If check_routines.Blkchk("hel_steel_beam_dbl-2023") = True Then
-            blkname = "hel_steel_beam_dbl-2023"
+        If check_routines.Blkchk("hel_steel_beam_dbl-2026") = True Then
+            blkname = "hel_steel_beam_dbl-2026"
         Else
-            blkname = "hel_steel_beam_dbl-2023.dwg"
+            blkname = "hel_steel_beam_dbl-2026.dwg"
         End If
 
         blk = space.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, rotation)
@@ -1110,10 +1110,10 @@ shape:
         line1.Visible = False
         line2.Visible = False
 
-        If check_routines.Blkchk("hel_moment_tag-2023") = True Then
-            blkname = "hel_moment_tag-2023"
+        If check_routines.Blkchk("hel_moment_tag-2026") = True Then
+            blkname = "hel_moment_tag-2026"
         Else
-            blkname = "hel_moment_tag-2023.dwg"
+            blkname = "hel_moment_tag-2026.dwg"
         End If
 
         blkscl = utilities.Getscale * Thisdrawing.GetVariable("userr1")
@@ -1180,10 +1180,10 @@ nd:
 
         inspoint = utilities.Getpoint("Select Tag Insertion Point: ")
 
-        If check_routines.Blkchk("hel_rec_tag-2023") = True Then
-            blkname = "hel_rec_tag-2023"
+        If check_routines.Blkchk("hel_rec_tag-2026") = True Then
+            blkname = "hel_rec_tag-2026"
         Else
-            blkname = "hel_rec_tag-2023.dwg"
+            blkname = "hel_rec_tag-2026.dwg"
         End If
         On Error GoTo nd
         blkref = Thisdrawing.ModelSpace.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, 0)
@@ -1231,10 +1231,10 @@ nd:
 
         inspoint = utilities.Getpoint("Select Tag Insertion Point: ")
 
-        If check_routines.Blkchk("hel_elvdiff-2023") = True Then
-            blkname = "hel_elvdiff-2023"
+        If check_routines.Blkchk("hel_elvdiff-2026") = True Then
+            blkname = "hel_elvdiff-2026"
         Else
-            blkname = "hel_elvdiff-2023.dwg"
+            blkname = "hel_elvdiff-2026.dwg"
         End If
         On Error GoTo nd
         blkref = Thisdrawing.ModelSpace.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, 0)
@@ -1285,10 +1285,10 @@ nd:
 
         inspoint = utilities.Getpoint("Select Bottom Corner of Footing: ")
 
-        If check_routines.Blkchk("hel_drain_bearing-2023") = True Then
-            blkname = "hel_drain_bearing-2023"
+        If check_routines.Blkchk("hel_drain_bearing-2026") = True Then
+            blkname = "hel_drain_bearing-2026"
         Else
-            blkname = "hel_drain_bearing-2023.dwg"
+            blkname = "hel_drain_bearing-2026.dwg"
         End If
         On Error GoTo nd
         blkref = Thisdrawing.ModelSpace.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, 0)
@@ -1402,10 +1402,10 @@ good:
             Spansec = spanins2
         End If
 
-        If check_routines.Blkchk("hel_span_layout-2023") = True Then
-            blkname = "hel_span_layout-2023"
+        If check_routines.Blkchk("hel_span_layout-2026") = True Then
+            blkname = "hel_span_layout-2026"
         Else
-            blkname = "hel_span_layout-2023.dwg"
+            blkname = "hel_span_layout-2026.dwg"
         End If
 
         blkref = space.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, rotation)
@@ -1576,10 +1576,10 @@ nd1:
         End If
 
         If Thisdrawing.GetVariable("Userr3") = 1 Then
-            If check_routines.Blkchk("hel_rebarspc-2023") = True Then
-                blkname = "hel_rebarspc-2023"
+            If check_routines.Blkchk("hel_rebarspc-2026") = True Then
+                blkname = "hel_rebarspc-2026"
             Else
-                blkname = "hel_rebarspc-2023.dwg"
+                blkname = "hel_rebarspc-2026.dwg"
             End If
         Else
             If check_routines.Blkchk("hel_rebarspc_i") = True Then
@@ -1673,7 +1673,7 @@ nd:
 
             If dimscl = 0 Then dimscl = 1
 
-            blockname = "hel_scalebar_1-" & Format(Application.GetSystemVariable("Userr2"), "000") & "-2023"
+            blockname = "hel_scalebar_1-" & Format(Application.GetSystemVariable("Userr2"), "000") & "-2026"
 
             If check_routines.Blkchk(blockname) = True Then
 
@@ -1708,7 +1708,7 @@ nd:
 
         Using tr
             Try
-                blockname = "hel_northarrow-2023"
+                blockname = "hel_northarrow-2026"
 
                 If check_routines.Blkchk(blockname) = True Then
 
@@ -1745,7 +1745,7 @@ nd:
 
     <CommandMethod("clmark")> Sub Clmark()
 
-        Dim blkname As String = "hel_clmark-2023"
+        Dim blkname As String = "hel_clmark-2026"
         Dim blkscl As New Clsutilities
         'Dim prop As AcadDynamicBlockReferenceProperty
         Dim blockinsert As New ClsBlock_insert
@@ -1926,10 +1926,10 @@ nd:
 
                 End If
 
-                If check_routines.Blkchk("hel_clmark-2023") = True Then
-                    blkname = "hel_clmark-2023"
+                If check_routines.Blkchk("hel_clmark-2026") = True Then
+                    blkname = "hel_clmark-2026"
                 Else
-                    blkname = "hel_clmark-2023.dwg"
+                    blkname = "hel_clmark-2026.dwg"
                 End If
 
                 blkscl = utilities.Getscale

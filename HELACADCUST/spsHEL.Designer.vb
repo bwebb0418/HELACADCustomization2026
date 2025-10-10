@@ -67,7 +67,7 @@ Partial Class spsHEL
         Me.ApplicationTitle.Name = "ApplicationTitle"
         Me.ApplicationTitle.Size = New System.Drawing.Size(427, 97)
         Me.ApplicationTitle.TabIndex = 0
-        Me.ApplicationTitle.Text = "AutoCAD 2023 Customization"
+        Me.ApplicationTitle.Text = "AutoCAD 2026 Customization"
         Me.ApplicationTitle.TextAlign = System.Drawing.ContentAlignment.BottomLeft
         '
         'DetailsLayoutPanel

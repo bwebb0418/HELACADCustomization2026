@@ -38,10 +38,10 @@ Public Class Frmdynamicblock
 
         'blkscl = 1
 
-        If check_routines.blkchk("hel_stamps-2023") = True Then
-            blkname = "hel_stamps-2023"
+        If check_routines.blkchk("hel_stamps-2026") = True Then
+            blkname = "hel_stamps-2026"
         Else
-            blkname = "hel_stamps-2023.dwg"
+            blkname = "hel_stamps-2026.dwg"
         End If
 
         If Thisdrawing.ActiveSpace = AcActiveSpace.acModelSpace Then
@@ -81,7 +81,7 @@ Public Class Frmdynamicblock
         TXTLine2.Visible = True
         Label1.Visible = True
         Label2.Visible = True
-        If blk.Name = "hel_stamps-2023" Then
+        If blk.Name = "hel_stamps-2026" Then
             Cbolookopt.Visible = False
             Me.Width = 250
             Me.Height = 300
@@ -95,7 +95,7 @@ Public Class Frmdynamicblock
             TXTline1.Visible = False
             Label2.Visible = False
             TXTLine2.Visible = False
-        ElseIf blk.Name = "hel_elev_tag-2023" Then
+        ElseIf blk.Name = "hel_elev_tag-2026" Then
             Dim feet
             Dim neg As Boolean
             Dim inches
@@ -161,7 +161,7 @@ Public Class Frmdynamicblock
             cmdfinish.Top = 106
 
 
-        ElseIf blk.Name = "hel_clmark-2023" Then
+        ElseIf blk.Name = "hel_clmark-2026" Then
             Cbovisopt.Visible = False
             Cbolookopt.Visible = False
             Me.Width = 170
@@ -176,7 +176,7 @@ Public Class Frmdynamicblock
             cmdfinish.Left = TXTline1.Left
             cmdfinish.Top = 60
             'Cbovisopt.Value = ""
-        ElseIf blk.Name = "hel_decking-2023" Or blk.Name = "hel_decktag-2023" Then
+        ElseIf blk.Name = "hel_decking-2026" Or blk.Name = "hel_decktag-2026" Then
             Cbolookopt.Visible = False
             Me.Width = 170
             Me.Height = 100
@@ -207,7 +207,7 @@ Public Class Frmdynamicblock
 
 
     Private Sub Frmdynamicblock_Load(ByVal sender As Object, ByVal e As System.EventArgs) Handles Me.Load
-        'If blk.Name = "hel_stamps-2023" Then
+        'If blk.Name = "hel_stamps-2026" Then
         '    Cbolookopt.Visible = False
         '    Me.Width = 250
         '    Me.Height = 300
@@ -221,7 +221,7 @@ Public Class Frmdynamicblock
         '    TXTline1.Visible = False
         '    Label2.Visible = False
         '    TXTLine2.Visible = False
-        'ElseIf blk.Name = "hel_elev_tag-2023" Then
+        'ElseIf blk.Name = "hel_elev_tag-2026" Then
         '    Dim feet, neg
         '    Dim inches
         '    Dim fractions, denom
@@ -286,7 +286,7 @@ Public Class Frmdynamicblock
         '    cmdfinish.Top = 106
         '    Cbovisopt.SelectedValue = ""
         '    Cbolookopt.SelectedValue = Cbolookopt.Items(0)
-        'ElseIf blk.Name = "hel_clmark-2023" Then
+        'ElseIf blk.Name = "hel_clmark-2026" Then
         '    Cbovisopt.Visible = False
         '    Cbolookopt.Visible = False
         '    Me.Width = 170
@@ -301,7 +301,7 @@ Public Class Frmdynamicblock
         '    cmdfinish.Left = TXTline1.Left
         '    cmdfinish.Top = 60
         '    'Cbovisopt.Value = ""
-        'ElseIf blk.Name = "hel_decking-2023" Or blk.Name = "hel_decktag-2023" Then
+        'ElseIf blk.Name = "hel_decking-2026" Or blk.Name = "hel_decktag-2026" Then
         '    MsgBox("hH")
         '    Cbolookopt.Visible = False
         '    Me.Width = 170
@@ -327,7 +327,7 @@ Public Class Frmdynamicblock
         Dim j As Integer
         Dim K As Integer
         For i = 0 To UBound(dynprop)
-            If blk.Name = "hel_elev_tag-2023" Then
+            If blk.Name = "hel_elev_tag-2026" Then
                 For j = 0 To UBound(attribs)
                     If attribs(j).TextString = "EL." Then
                         If TXTline1.Text = "" Then TXTline1 = attribs(j).TextString
@@ -359,9 +359,9 @@ Public Class Frmdynamicblock
                         End If
                     End If
                 Next K
-            ElseIf blk.Name = "hel_stamps-2023" Or blk.Name = "hel_decking-2023" Or blk.Name = "hel_decktag-2023" Then
+            ElseIf blk.Name = "hel_stamps-2026" Or blk.Name = "hel_decking-2026" Or blk.Name = "hel_decktag-2026" Then
                 If dynprop(i).PropertyName = "Visibility" Then dynprop(i).Value = Me.Cbovisopt.SelectedItem.ToString
-            ElseIf blk.Name = "hel_clmark-2023" Then
+            ElseIf blk.Name = "hel_clmark-2026" Then
                 If dynprop(i).PropertyName = "Visibility" Then
                     If TXTline1.Text = "" Or TXTLine2.Text = "" Then
                         dynprop(i).Value = "1-LINE"
@@ -408,7 +408,7 @@ Public Class Frmdynamicblock
 
 
 
-        blkname = "hel_elev_tag-2023"
+        blkname = "hel_elev_tag-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -491,9 +491,9 @@ tagpick:
         End Try
 
         If tagtype = Nothing Then
-            blkname = "hel_decking-2023"
+            blkname = "hel_decking-2026"
         Else
-            blkname = "hel_decktag-2023"
+            blkname = "hel_decktag-2026"
         End If
 
         If check_routines.Blkchk(blkname) = True Then

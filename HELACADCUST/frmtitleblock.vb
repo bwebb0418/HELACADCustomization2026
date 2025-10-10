@@ -91,38 +91,38 @@ Public Class FrmTitleblock
             blkscl = 1
         End If
         Try
-            Loadtblocks("HEL_2023_85x11")
-            Cbosize.Items.Add("HEL_2023_85x11")
+            Loadtblocks("HEL_2026_85x11")
+            Cbosize.Items.Add("HEL_2026_85x11")
         Catch
             Thisdrawing.Utility.Prompt("Error Loading 8.5x11 Titleblock")
         End Try
         Try
-            Loadtblocks("HEL_2023_11x17")
-            Cbosize.Items.Add("HEL_2023_11x17")
+            Loadtblocks("HEL_2026_11x17")
+            Cbosize.Items.Add("HEL_2026_11x17")
         Catch
             Thisdrawing.Utility.Prompt("Error Loading 11x17 Titleblock")
         End Try
         Try
-            Loadtblocks("HEL_2023_22x17H")
-            Cbosize.Items.Add("HEL_2023_22x17H")
+            Loadtblocks("HEL_2026_22x17H")
+            Cbosize.Items.Add("HEL_2026_22x17H")
         Catch
             Thisdrawing.Utility.Prompt("Error Loading 18x24 Titleblock")
         End Try
         Try
-            Loadtblocks("HEL_2023_24x36")
-            Cbosize.Items.Add("HEL_2023_24x36")
+            Loadtblocks("HEL_2026_24x36")
+            Cbosize.Items.Add("HEL_2026_24x36")
         Catch
             Thisdrawing.Utility.Prompt("Error Loading 24x36 Titleblock")
         End Try
         Try
-            Loadtblocks("HEL_2023_Ind_11x17")
-            Cbosize.Items.Add("HEL_2023_Ind_11x17")
+            Loadtblocks("HEL_2026_Ind_11x17")
+            Cbosize.Items.Add("HEL_2026_Ind_11x17")
         Catch
             Thisdrawing.Utility.Prompt("Error Loading Industrial 11x17 Titleblock")
         End Try
         Try
-            Loadtblocks("HEL_2023_Ind_24x36")
-            Cbosize.Items.Add("HEL_2023_Ind_24x36")
+            Loadtblocks("HEL_2026_Ind_24x36")
+            Cbosize.Items.Add("HEL_2026_Ind_24x36")
         Catch
             Thisdrawing.Utility.Prompt("Error Loading Industrial 24x36 Titleblock")
         End Try
@@ -170,7 +170,7 @@ Public Class FrmTitleblock
             Dim prop As AcadDynamicBlockReferenceProperty = Nothing
 
             If Cbosize.SelectedItem = Nothing Then
-                Cbosize.Text = "HEL_2023_24x36"
+                Cbosize.Text = "HEL_2026_24x36"
             End If
 
             If path = Nothing And Not Cbosize.SelectedItem.ToString.Contains("HEL") Then
@@ -308,7 +308,7 @@ Public Class FrmTitleblock
 strt:
 
             oShell = New Shell32.Shell ' ActiveX interface to shell32.dll
-            oFolder = oShell.BrowseForFolder(0, "", 512, "M:\Structural\r2023\Blocks\Client Titleblocks\")
+            oFolder = oShell.BrowseForFolder(0, "", 512, "M:\Structural\r2026\Blocks\Client Titleblocks\")
             If oFolder Is Nothing Then
                 Exit Sub
             End If
@@ -318,7 +318,7 @@ strt:
             Dim Files
 
             fso = CreateObject("scripting.filesystemobject")
-            path = "M:\Structural\r2023\Blocks\Client Titleblocks\" + oFolder.Title
+            path = "M:\Structural\r2026\Blocks\Client Titleblocks\" + oFolder.Title
             Folder = fso.GetFolder(path)
             Files = Folder.Files
 

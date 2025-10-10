@@ -38,7 +38,7 @@ Public Class uscMasonry
 
         If blkscl = 0 Then blkscl = 1
 
-        blkname = "hel_masonry-2023"
+        blkname = "hel_masonry-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -69,7 +69,7 @@ Public Class uscMasonry
 
         blk.Delete()
 
-        blkname = "hel_masonry_i-2023"
+        blkname = "hel_masonry_i-2026"
         If check_routines.blkchk(blkname) = True Then
 
         Else
@@ -141,21 +141,21 @@ Public Class uscMasonry
         If Cbounit.SelectedItem = Nothing Then Exit Sub
 
         If Strings.Left(Cbounit.SelectedItem.ToString, 3) = "8"" " Or Strings.Left(Cbounit.SelectedItem.ToString, 3) = "10""" Then
-            blkname = "hel_masonry_i-2023"
+            blkname = "hel_masonry_i-2026"
         ElseIf Strings.Left(Cbounit.SelectedItem.ToString, 3) = "200" Or Strings.Left(Cbounit.SelectedItem.ToString, 3) = "250" Then
-            blkname = "hel_masonry-2023"
+            blkname = "hel_masonry-2026"
         ElseIf LCase(Cbounit.SelectedItem.ToString) = "imperial units" Or LCase(Cbounit.SelectedItem.ToString) = "metric untis" Then
             Exit Sub
         ElseIf Cbounit.SelectedItem.ToString.Contains("Brick") Then
             Dim idex As Integer = Cbounit.SelectedIndex
             If Cbounit.Items(idex - 1) = "Metric Units" Then
-                blkname = "hel_masonry-2023"
+                blkname = "hel_masonry-2026"
             ElseIf Cbounit.Items(idex - 2) = "Metric Units" Then
-                blkname = "hel_masonry-2023"
+                blkname = "hel_masonry-2026"
             ElseIf Cbounit.Items(idex - 3) = "Metric Units" Then
-                blkname = "hel_masonry-2023"
+                blkname = "hel_masonry-2026"
             ElseIf Cbounit.Items(idex - 1) = "Imperial Units" Or Cbounit.Items(idex - 2) = "Imperial Units" Or Cbounit.Items(idex - 3) = "Imperial Units" Then
-                blkname = "hel_masonry_i-2023"
+                blkname = "hel_masonry_i-2026"
             End If
 
         End If

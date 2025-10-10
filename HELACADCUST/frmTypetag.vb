@@ -93,10 +93,10 @@ Public Class FrmTypetag
         blkscl = utilities.Getscale * Thisdrawing.GetVariable("userr1")
         If blkscl = 0 Then blkscl = 1
         Dim check_routines As New ClsCheckroutines
-        If check_routines.Blkchk("hel_type_tag-2023") = True Then
-            blkname = "hel_type_tag-2023"
+        If check_routines.Blkchk("hel_type_tag-2026") = True Then
+            blkname = "hel_type_tag-2026"
         Else
-            blkname = "hel_type_tag-2023.dwg"
+            blkname = "hel_type_tag-2026.dwg"
         End If
 
         blkref = Thisdrawing.ModelSpace.InsertBlock(inspoint, blkname, blkscl, blkscl, blkscl, 0)

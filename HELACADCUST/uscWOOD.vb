@@ -347,7 +347,7 @@ Public Class uscWOOD
                 Try
                     rollup()
 
-                    blkname = "hel_TJI-2023"
+                    blkname = "hel_TJI-2026"
                     If check_routines.Blkchk(blkname) = True Then
 
                     Else
@@ -499,7 +499,7 @@ Public Class uscWOOD
                     Rollup()
 
 
-                    blkname = "hel_glulam-2023"
+                    blkname = "hel_glulam-2026"
                     If check_routines.Blkchk(blkname) = True Then
 
                     Else
@@ -567,7 +567,7 @@ Public Class uscWOOD
                     Rollup()
 
 
-                    blkname = "hel_parabeam-2023"
+                    blkname = "hel_parabeam-2026"
                     If check_routines.Blkchk(blkname) = True Then
 
                     Else
@@ -671,7 +671,7 @@ Public Class uscWOOD
                         Depth = (18.75 * 25.4)
                     End If
 
-                    blkname = "hel_microbeam-2023"
+                    blkname = "hel_microbeam-2026"
                     If check_routines.Blkchk(blkname) = True Then
 
                     Else
@@ -769,7 +769,7 @@ Public Class uscWOOD
 
                     End If
 
-                    blkname = "hel_tmbrstrnd-2023"
+                    blkname = "hel_tmbrstrnd-2026"
                     If check_routines.Blkchk(blkname) = True Then
 
                     Else
@@ -854,7 +854,7 @@ Public Class uscWOOD
                         Depth = CDbl(Strings.Right(size, 3))
                     End If
 
-                    blkname = "hel_lumber-2023"
+                    blkname = "hel_lumber-2026"
                     If check_routines.Blkchk(blkname) = True Then
 
                     Else

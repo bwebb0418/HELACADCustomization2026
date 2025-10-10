@@ -91,7 +91,7 @@ Public Class ClsVTD
             'APPLICATION.SETSYSTEMVariable "_server"
             'APPLICATION.SETSYSTEMVariable "_vernum"
             Application.SetSystemVariable("acadlspasdoc", 1) 'Loads acad.lsp with every drawing opened
-            'Application.SetSystemVariable("acadprefix", "m:\structural\r2023\...")
+            'Application.SetSystemVariable("acadprefix", "m:\structural\r2026\...")
             'APPLICATION.SETSYSTEMVariable "acadver"
             'APPLICATION.SETSYSTEMVariable "acis15"
             'APPLICATION.SETSYSTEMVariable "acisoutver"
@@ -509,7 +509,7 @@ Public Class ClsVTD
             If Application.GetSystemVariable("treedepth") <> 3020 Then Application.SetSystemVariable("treedepth", 3020) 'This variable causes a regen
             Application.SetSystemVariable("treemax", 10000000)
             Application.SetSystemVariable("trimmode", 1)
-            Application.SetSystemVariable("trustedpaths", "C:\ProgramData\AutoDesk\ApplicationPlugins\helacad2023.bundle\Contents...;M:\Structural\r2023\...")
+            Application.SetSystemVariable("trustedpaths", "C:\ProgramData\AutoDesk\ApplicationPlugins\helacad2026.bundle\Contents...;M:\Structural\r2026\...")
             Application.SetSystemVariable("tspacefac", 1)
             Application.SetSystemVariable("tspacetype", 1)
             Application.SetSystemVariable("tstackalign", 1)
