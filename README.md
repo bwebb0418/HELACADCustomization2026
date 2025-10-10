@@ -122,7 +122,7 @@ For support or issues:
 
 ## Version History
 
-- **2026**: Updated for AutoCAD 2026 compatibility
-- **2023**: Major rewrite in .NET 8.0
+- **2026**: Updated for AutoCAD 2026 compatibility, Converted to .NET 8.0
+- **2023**: Updated for AutoCAD 2023 compatibility
 - **2019**: Enhanced palette system
 - **2016**: Initial VB.NET conversion

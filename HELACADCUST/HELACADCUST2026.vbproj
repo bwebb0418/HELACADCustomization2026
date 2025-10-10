@@ -44,18 +44,28 @@
   <ItemGroup>
     <Reference Include="AcCoreMgd">
       <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc\AcCoreMgd.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="AcDbMgd">
       <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc\AcDbMgd.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="AcMgd">
       <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc\AcMgd.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>False</EmbedInteropTypes>
     </Reference>
     <Reference Include="Autodesk.AutoCAD.Interop">
       <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc-x64\Autodesk.AutoCAD.Interop.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
     <Reference Include="Autodesk.AutoCAD.Interop.Common">
       <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc-x64\Autodesk.AutoCAD.Interop.Common.dll</HintPath>
+      <Private>False</Private>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
     </Reference>
   </ItemGroup>
   <ItemGroup>

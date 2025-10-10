@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "V3M7toKhFYI=",
+  "dgSpecHash": "KMgQErklcjc=",
   "success": true,
-  "projectFilePath": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj",
+  "projectFilePath": "C:\\Users\\BWebb\\Source\\Repos\\HELACADCustomization2026\\HELACADCUST\\HELACADCUST2026.vbproj",
   "expectedPackageFiles": [
     "C:\\Users\\BWebb\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.26100.57\\microsoft.windows.sdk.net.ref.10.0.26100.57.nupkg.sha512"
   ],

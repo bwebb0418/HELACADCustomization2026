@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj": {}
+    "C:\\Users\\BWebb\\Source\\Repos\\HELACADCustomization2026\\HELACADCUST\\HELACADCUST2026.vbproj": {}
   },
   "projects": {
-    "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj": {
+    "C:\\Users\\BWebb\\Source\\Repos\\HELACADCustomization2026\\HELACADCUST\\HELACADCUST2026.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj",
+        "projectUniqueName": "C:\\Users\\BWebb\\Source\\Repos\\HELACADCustomization2026\\HELACADCUST\\HELACADCUST2026.vbproj",
         "projectName": "HELACADCUST2026",
-        "projectPath": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj",
+        "projectPath": "C:\\Users\\BWebb\\Source\\Repos\\HELACADCustomization2026\\HELACADCUST\\HELACADCUST2026.vbproj",
         "packagesPath": "C:\\Users\\BWebb\\.nuget\\packages\\",
-        "outputPath": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\obj\\",
+        "outputPath": "C:\\Users\\BWebb\\Source\\Repos\\HELACADCustomization2026\\HELACADCUST\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\BWebb\\AppData\\Roaming\\NuGet\\NuGet.Config",
