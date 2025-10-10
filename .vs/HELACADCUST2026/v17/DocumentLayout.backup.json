@@ -1,0 +1,308 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\acadcust.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\acadcust.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\helacadcust2026.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\helacadcust2026.vbproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\frmlayergen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\frmlayergen.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\uscissues.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\uscissues.designer.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\spshel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\spshel.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\frmtypetag.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\frmtypetag.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\frmtitleblock.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\frmtitleblock.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\frmstartup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\frmstartup.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsblocks2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsblocks2.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clstitles_tags.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clstitles_tags.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsthreeptarrowjig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsthreeptarrowjig.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsotherroutines.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsotherroutines.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsleaders.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsleaders.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsgridlines.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsgridlines.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsblockroutines.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsblockroutines.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|m:\\structural\\r2026\\source\\helacadcust_dll\\helacadcust\\clsissues.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}",
+      "RelativeMoniker": "D:0:0:{FB260374-B3BE-4A79-B8E1-E4061AF39274}|HELACADCUST\\HELACADCUST2026.vbproj|solutionrelative:helacadcust\\clsissues.vb||{2C015C70-C72C-11D0-88C3-00A0C9110049}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HELACADCUST2026",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj",
+              "RelativeDocumentMoniker": "HELACADCUST\\HELACADCUST2026.vbproj",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\HELACADCUST2026.vbproj",
+              "RelativeToolTip": "HELACADCUST\\HELACADCUST2026.vbproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003380|",
+              "WhenOpened": "2025-10-09T23:30:49.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "app.config",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\app.config",
+              "RelativeDocumentMoniker": "HELACADCUST\\app.config",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\app.config",
+              "RelativeToolTip": "HELACADCUST\\app.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-09T23:29:13.559Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "spsHEL.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\spsHEL.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\spsHEL.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\spsHEL.vb",
+              "RelativeToolTip": "HELACADCUST\\spsHEL.vb",
+              "ViewState": "AgIAAEEAAAAAAAAAAAAkwFgAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:07:29.845Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmTypetag.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\frmTypetag.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\frmTypetag.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\frmTypetag.vb",
+              "RelativeToolTip": "HELACADCUST\\frmTypetag.vb",
+              "ViewState": "AgIAAP0AAAAAAAAAAADwvwwBAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:07:17.344Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmtitleblock.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\frmtitleblock.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\frmtitleblock.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\frmtitleblock.vb",
+              "RelativeToolTip": "HELACADCUST\\frmtitleblock.vb",
+              "ViewState": "AgIAABMBAAAAAAAAAADwvyIBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:07:14.367Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "FrmStartup.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\FrmStartup.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\FrmStartup.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\FrmStartup.vb",
+              "RelativeToolTip": "HELACADCUST\\FrmStartup.vb",
+              "ViewState": "AgIAAHIBAAAAAAAAAAAswIEBAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:07:08.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmlayergen.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\frmlayergen.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\frmlayergen.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\frmlayergen.vb",
+              "RelativeToolTip": "HELACADCUST\\frmlayergen.vb",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAjwK0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:06:46.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "clsBlocks2.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsBlocks2.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsBlocks2.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsBlocks2.vb",
+              "RelativeToolTip": "HELACADCUST\\clsBlocks2.vb",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAABsAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:06:43.591Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ACADCUST.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\ACADCUST.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\ACADCUST.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\ACADCUST.vb",
+              "RelativeToolTip": "HELACADCUST\\ACADCUST.vb",
+              "ViewState": "AgIAAMUAAAAAAAAAAAAjwNUAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-08-11T23:38:47.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "clsTitles_Tags.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsTitles_Tags.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsTitles_Tags.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsTitles_Tags.vb",
+              "RelativeToolTip": "HELACADCUST\\clsTitles_Tags.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:53:29.821Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "clsthreeptarrowjig.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsthreeptarrowjig.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsthreeptarrowjig.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsthreeptarrowjig.vb",
+              "RelativeToolTip": "HELACADCUST\\clsthreeptarrowjig.vb",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAmwBUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:53:27.937Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "uscIssues.Designer.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\uscIssues.Designer.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\uscIssues.Designer.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\uscIssues.Designer.vb",
+              "RelativeToolTip": "HELACADCUST\\uscIssues.Designer.vb",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAAAMoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T23:07:40.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "clsOtherRoutines.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsOtherRoutines.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsOtherRoutines.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsOtherRoutines.vb",
+              "RelativeToolTip": "HELACADCUST\\clsOtherRoutines.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:53:26.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "clsLeaders.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsLeaders.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsLeaders.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsLeaders.vb",
+              "RelativeToolTip": "HELACADCUST\\clsLeaders.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:53:24.476Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "clsGridlines.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsGridlines.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsGridlines.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsGridlines.vb",
+              "RelativeToolTip": "HELACADCUST\\clsGridlines.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:53:22.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "clsBlockRoutines.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsBlockRoutines.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsBlockRoutines.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsBlockRoutines.vb",
+              "RelativeToolTip": "HELACADCUST\\clsBlockRoutines.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:52:39.002Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "clsIssues.vb",
+              "DocumentMoniker": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsIssues.vb",
+              "RelativeDocumentMoniker": "HELACADCUST\\clsIssues.vb",
+              "ToolTip": "M:\\Structural\\R2026\\Source\\HELACADCUST_DLL\\HELACADCUST\\clsIssues.vb",
+              "RelativeToolTip": "HELACADCUST\\clsIssues.vb",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003361|",
+              "WhenOpened": "2025-10-09T22:50:59.836Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

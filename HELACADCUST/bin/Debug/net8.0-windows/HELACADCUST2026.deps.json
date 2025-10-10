@@ -1,0 +1,160 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "HELACADCUST2026/1.0.0": {
+        "dependencies": {
+          "AcCoreMgd": "25.1.0.0",
+          "AcDbMgd": "25.1.0.0",
+          "AcMgd": "25.1.0.0",
+          "Autodesk.AutoCAD.Interop.Common": "25.1.0.0",
+          "Autodesk.AutoCAD.Interop": "25.1.0.0"
+        },
+        "runtime": {
+          "HELACADCUST2026.dll": {}
+        }
+      },
+      "AcCoreMgd/25.1.0.0": {
+        "runtime": {
+          "AcCoreMgd.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "AcDbMgd/25.1.0.0": {
+        "runtime": {
+          "AcDbMgd.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "AcMgd/25.1.0.0": {
+        "runtime": {
+          "AcMgd.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "Autodesk.AutoCAD.Interop.Common/25.1.0.0": {
+        "runtime": {
+          "Autodesk.AutoCAD.Interop.Common.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "Autodesk.AutoCAD.Interop/25.1.0.0": {
+        "runtime": {
+          "Autodesk.AutoCAD.Interop.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "AdUIMgd/25.1.0.0": {
+        "runtime": {
+          "AdUIMgd.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "AdWindows/5.2.1.1": {
+        "runtime": {
+          "AdWindows.dll": {
+            "assemblyVersion": "5.2.1.1",
+            "fileVersion": "5.2.1.1"
+          }
+        }
+      },
+      "AcTcMgd/25.1.0.0": {
+        "runtime": {
+          "AcTcMgd.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "AdUiPalettes/25.1.0.0": {
+        "runtime": {
+          "AdUiPalettes.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      },
+      "AcCui/25.1.0.0": {
+        "runtime": {
+          "AcCui.dll": {
+            "assemblyVersion": "25.1.0.0",
+            "fileVersion": "25.1.60.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "HELACADCUST2026/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcCoreMgd/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcDbMgd/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcMgd/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autodesk.AutoCAD.Interop.Common/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Autodesk.AutoCAD.Interop/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdUIMgd/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdWindows/5.2.1.1": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcTcMgd/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AdUiPalettes/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AcCui/25.1.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

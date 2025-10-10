@@ -1,0 +1,150 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-windows10.0.26100.0</TargetFramework>
+    <OutputType>Library</OutputType>
+    <RootNamespace>HELACADCustomization</RootNamespace>
+    <MyType>Windows</MyType>
+    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
+    <UseWindowsForms>true</UseWindowsForms>
+    <UseWPF>true</UseWPF>
+    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <StartupObject />
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+    <NeutralLanguage>en-CA</NeutralLanguage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\Program Files\Autodesk\AutoCAD 2026\acad.exe</StartProgram>
+    <DocumentationFile>HELACADCUST2026.xml</DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>41998,42004,42024,42026,42029,42031,42099,42353,42354,42355</WarningsAsErrors>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DefineDebug>false</DefineDebug>
+    <DocumentationFile>HELACADCUST2026.xml</DocumentationFile>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <WarningsAsErrors>41998,42004,42024,42026,42029,42031,42099,42353,42354,42355</WarningsAsErrors>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DocumentationFile>HELACADCUST2026.xml</DocumentationFile>
+    <WarningsAsErrors>41998,42004,42024,42026,42029,42031,42099,42353,42354,42355</WarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DocumentationFile>HELACADCUST2026.xml</DocumentationFile>
+    <WarningsAsErrors>41998,42004,42024,42026,42029,42031,42099,42353,42354,42355</WarningsAsErrors>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AcCoreMgd">
+      <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc\AcCoreMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcDbMgd">
+      <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc\AcDbMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="AcMgd">
+      <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc\AcMgd.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop">
+      <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc-x64\Autodesk.AutoCAD.Interop.dll</HintPath>
+    </Reference>
+    <Reference Include="Autodesk.AutoCAD.Interop.Common">
+      <HintPath>C:\Users\BWebb\Downloads\CDROM1\inc-x64\Autodesk.AutoCAD.Interop.Common.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Autodesk.AutoCAD" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="frmTypetag.Designer.vb">
+      <DependentUpon>frmTypetag.vb</DependentUpon>
+    </Compile>
+    <Compile Update="frmlumber.Designer.vb">
+      <DependentUpon>frmlumber.vb</DependentUpon>
+    </Compile>
+    <Compile Update="frmtitleblock.Designer.vb">
+      <DependentUpon>frmtitleblock.vb</DependentUpon>
+    </Compile>
+    <Compile Update="frmdynamicblock.Designer.vb">
+      <DependentUpon>frmdynamicblock.vb</DependentUpon>
+    </Compile>
+    <Compile Update="FrmStartup.Designer.vb">
+      <DependentUpon>FrmStartup.vb</DependentUpon>
+    </Compile>
+    <Compile Update="frmlayergen.Designer.vb">
+      <DependentUpon>frmlayergen.vb</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <Compile Update="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Update="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Update="spsHEL.Designer.vb">
+      <DependentUpon>spsHEL.vb</DependentUpon>
+    </Compile>
+    <Compile Update="USCMultiScale.Designer.vb">
+      <DependentUpon>USCMultiScale.vb</DependentUpon>
+    </Compile>
+    <Compile Update="USCMultiScale.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uscWOOD.Designer.vb">
+      <DependentUpon>uscWOOD.vb</DependentUpon>
+    </Compile>
+    <Compile Update="uscWOOD.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uscIssues.Designer.vb">
+      <DependentUpon>uscIssues.vb</DependentUpon>
+    </Compile>
+    <Compile Update="uscIssues.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="uscMasonry.Designer.vb">
+      <DependentUpon>uscMasonry.vb</DependentUpon>
+    </Compile>
+    <Compile Update="uscMasonry.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Update="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{94E38DFF-614B-4CBD-B67C-F211BB35CE8B}" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Shell32">
+      <Guid>{50A7E9B0-70EF-11D1-B75A-00A0C90564FE}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <Private>False</Private>
+    </COMReference>
+  </ItemGroup>
+</Project>

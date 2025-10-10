@@ -1,0 +1,70 @@
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.pdb
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.xml
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.xml
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.pdb
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\Interop.Shell32.dll
+C:\Users\bwebb\documents\visual studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.vbproj.ResolveComReference.cache
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\Interop.Shell32.dll
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.vbproj.ResolveComReference.cache
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmlumber.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmTitleblock.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmdynamicblock.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmStartup.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmlayergen.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.Resources.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.uscWOOD.resources
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.dll
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.xml
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.pdb
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.dll.config
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.dll
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.pdb
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.xml
+C:\Users\Bob\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.USCMultiScale.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.dll.config
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.dll
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.pdb
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.xml
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\Interop.Shell32.dll
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.vbproj.ResolveComReference.cache
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmlumber.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmTitleblock.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmdynamicblock.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmStartup.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.frmlayergen.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.Resources.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.USCMultiScale.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\ClassLibrary1.uscWOOD.resources
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource-ResGen.read.1.tlog
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource.read.1.tlog
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource-ResGen.write.1.tlog
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\GenerateResource.write.1.tlog
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.dll
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.xml
+C:\Users\bwebb\Dropbox\Transfer\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.pdb
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.frmlumber.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.frmTitleblock.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.frmdynamicblock.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.frmStartup.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.frmlayergen.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.Resources.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.USCMultiScale.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.uscWOOD.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.frmTypetag.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.uscIssues.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.uscMasonry.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCustomization.spsHEL.resources
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.dll.config
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\bin\Debug\HELACADCUST.dll
+C:\Users\bwebb\Documents\Visual Studio 2010\Projects\HELACADCUST\HELACADCUST\obj\Debug\HELACADCUST.dll

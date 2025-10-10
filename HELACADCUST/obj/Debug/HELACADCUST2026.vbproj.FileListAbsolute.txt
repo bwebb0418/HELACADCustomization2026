@@ -1,0 +1,17 @@
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCUST2026.vbproj.AssemblyReference.cache
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\Interop.Shell32.dll
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCUST2026.vbproj.ResolveComReference.cache
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.FrmTypetag.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.frmlumber.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.FrmTitleblock.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.Frmdynamicblock.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.FrmStartup.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.Frmlayergen.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.Resources.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.spsHEL.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.uscMasonry.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.USCMultiScale.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.uscWOOD.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCustomization.uscIssues.resources
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCUST2026.vbproj.GenerateResource.cache
+M:\Structural\R2026\Source\HELACADCUST_DLL\HELACADCUST\obj\Debug\HELACADCUST2026.vbproj.CoreCompileInputs.cache
