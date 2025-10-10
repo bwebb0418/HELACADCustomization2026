@@ -1,0 +1,77 @@
+Herold AutoCAD 2023 Customization Change Log
+
+Version 20.23.12.07 07/12/2023
+
+Extended license to December 2024
+
+Version 20.23.08.23 23/08/2023
+
+Fixed bug that didn't generate dimension styles
+
+Version 20.23.04.18 18/04/2023
+
+Revised Custom pentable routines to use shortcuts and lessen dependency on the plot table script
+
+Version 20.23.03.16 16/03/2023
+
+Corrected CTB search code to allow for directories other than 04s Drawings
+Removed SteelPLUS staging
+
+Version 20.23.02.16 16/02/2023
+
+Removed layer conversion code 
+
+Version 20.23.01.04 04/01/2023
+
+Updated versioning to suit new year
+Fixed bug that caused crashing when using client settings 
+
+Version 2.3.12.13 13/12/2022
+
+Added logic to return active layer to setting prior to DIM commands
+
+Version 2.3.12.09 09/12/2022
+
+Update license timeout
+
+Version 2.3.11.25 25/11/2022
+
+Set DIMSCALE for SteelPLUS Weld symbols when using metric
+
+Version 2.3.11.24 24/11/2022
+
+Fixed routines that wouldn't fire due to language changes
+
+Version 2.3.11.21 21/11/2022
+
+Fixed view titles font scale
+Added FonUpdate command for updating drawings from 2019
+
+Version 2.3.11.7 07/11/2022
+
+Fixed titleblocks folder not appearing due to misnamed folder
+
+Version 2.3.11.2 02/11/2022
+
+Patched error that would crashe AutoCAD when no drawing was open
+
+Version 2.3.10 31/10/2022
+
+Fixed text insertion not switching to the proper style
+Fixed lumber menu
+Fixed Masonry Menu
+Fixed Issues Menu
+Fixed shearwall graphics not appearing properly
+
+
+Version 2.3.1 07/09/2022
+
+Revised titleblocks to remove Permit to Practice number
+
+Version 2.3.0 19/08/2022
+
+Additions:
+Added SteelPlus Libraries to prep MSI for off network use
+
+Bug Fixes:
+Set PSLTSCALE to 1

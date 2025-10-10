@@ -1,0 +1,39 @@
+STANDARD A1 SIZE SHEET.DWG has the following dependencies 
+ 
+Fonts 
+	C:\AUTOCAD 2000I\support\simplex.shx 
+	C:\AUTOCAD 2000I\fonts\txt.shx 
+	C:\MYSUPORT\SIMPLEX1.shx 
+	C:\WINDOWS\FONTS\sanss___.ttf 
+	C:\WINDOWS\FONTS\sanssb__.ttf 
+	C:\WINDOWS\FONTS\swiss.ttf 
+	C:\WINDOWS\FONTS\swissb.ttf 
+ 
+Plot dependencies 
+	DJPLOTTABLE1 - (black).ctb 
+	HP DesignJet 350C (E _ A0).pc3 
+ 
+Miscellaneous 
+	C:\AUTOCAD 2000I\support\acad.fmp 
+ 
+Notes for distribution 
+ 
+.SHX fonts were found. 
+Please copy these fonts to the AutoCAD Fonts directory and 
+check with the font manufacturer about distribution rights. 
+Fonts supplied with AutoCAD are freely distributable 
+ 
+.TTF fonts were found. 
+TTF fonts must be registered with the Operating System 
+To register, select the Fonts option in your Control Panel 
+Check with the font manufacturer about distribution rights. 
+Fonts supplied with AutoCAD are freely distributable. 
+ 
+The AutoCAD variable FONTMAP was set to C:\AUTOCAD 2000I\support\acad.fmp 
+Please make sure that you set the FONTMAP variable to read this file 
+before opening any drawings. 
+ 
+The AutoCAD variable FONTALT was set to C:\AUTOCAD 2000I\support\simplex.shx 
+Please make sure that the FONTALT variable is set to this file 
+before opening any drawings. 
+All text styles with missing fonts are automatically set to this font 

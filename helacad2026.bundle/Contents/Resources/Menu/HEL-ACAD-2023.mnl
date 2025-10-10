@@ -1,0 +1,104 @@
+
+(Princ "\nHEL Customized MNL Load Starting")
+(princ "\n")
+
+
+
+;;;Autoload functions
+(autoload "zzero"	'("zzero"))
+;(autoload "DALF"	'("DALF"))
+(autoload "rebar"	'("10M" "15M" "20M" "25M" "30M" "35M" "45M" "55M"))
+;(autoload "textsize"	'("20mm" "25mm" "30mm" "35mm" "40mm" "50mm"))
+(autoload "wood"	'("post" "wjoist" "helLumber" "wbeam" "wgirt" "manuwood"))
+(autoload "steel_routines"	'("sjoist" "sbeam"))
+(autoload "annotations"	'("gridline" "dblarrow" "typetag" "stamps"))
+(autoload "annotations"	'("twopointa" "threepointa" "twopointb" "threepointb" "twopointd" "threepointd" "twopointi" "threepointi"))
+;(autoload "annotations"	'("elevdiff" "water"))
+;(autoload "annotations"	'("dia_tag"))
+(autoload "titles&tags"	'("title" "2pc_title" "2po_title" "2pc_section" "2po_section" "2pc_detail" "2po_detail"))
+(autoload "Masonry"	'("masonry" "rebar_layout"))
+(autoload "misc"	'("drain_bearing" "gravel" "bearing"))
+
+
+;;;Zoom Extents Command
+(defun c:ZE()
+  	(COMMAND "ZOOM" "EXTENTS")
+	(princ)
+)
+
+;;; erase all wipeouts
+(defun c:gowipe (/ b)
+ (setvar "pickstyle" 0)
+ (setq b (ssget "x" '((0 . "wipeout"))))
+ (command "._erase" b "")
+)
+
+;;;Tilemode
+(defun c:tm()
+	(princ)
+)
+
+
+(defun c:ChangeLayerColor (/ Sel EntList DataList cnt Num ClrNum EntData)
+
+(if (setq Sel (nentsel "\n Select object to change layers color: "))
+ (progn
+  (if (> (length Sel) 2)
+   (setq EntList (cons (car Sel) (last Sel)))
+   (setq EntList (cons (car Sel) EntList))
+  )
+  (setq DataList
+   (mapcar
+    '(lambda (x / EntData)
+     (setq EntData (entget x))
+     (cons (cdr (assoc 0 EntData)) (cdr (assoc 8 EntData)))
+    )
+    EntList
+   )
+  )
+  (setq cnt 0)
+  (textscr)
+  (prompt "\n Select number of layer to change color: ")
+  (foreach lst DataList
+   (prompt (strcat "\n " (itoa cnt) " - " (cdr lst) " - Object [ " (car lst) " ]"))
+   (setq cnt (1+ cnt))
+  )
+  (while
+   (and
+    (not (setq Num (getint (strcat "\n Select number between 0 - " (itoa (1- cnt)) ": "))))
+    (not (< 0 Num (1- cnt)))
+   )
+  )
+  (graphscr)
+  (if (and Num (setq ClrNum (acad_colordlg 0)))
+   (progn
+    (setq EntData (entget (tblobjname "Layer" (cdr (nth Num DataList)))))
+    (entmod
+     (subst
+      (cons 62 ClrNum)
+      (assoc 62 EntData)
+      EntData
+     )
+    )
+    (command "_.Regen")
+   )
+  )
+ )
+)
+(princ)
+)
+
+
+
+(command "wipeout" "f" "off")
+(Princ)
+(setvar "filedia" 1)
+(Princ)
+;(load"dalf.vlx")
+(command "DWGSTARTUP")
+(Princ)
+(Princ "\nHEL Customized MNL Load Complete")
+(Princ)
+
+
+

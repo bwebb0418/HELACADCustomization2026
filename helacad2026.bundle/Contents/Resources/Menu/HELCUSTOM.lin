@@ -1,0 +1,9 @@
+*High_Water_Large_Tide,High Water Large Tide Imperial ---- HWLT ---- HWLT ---- HWLT ----
+A,12.7,-5,["HWLT",STANDARD,S=2,U=0.0,X=-4,Y=-1],-5
+*Low_Water_Large_Tide,Low Water Large Tide Imperial ---- LWLT ---- LWLT ---- LWLT ----
+A,12.7,-5,["LWLT",STANDARD,S=2,U=0.0,X=-4,Y=-1],-5
+*High_Water_Large_Tide,High Water Large Tide Metric ---- HWLT ---- HWLT ---- HWLT ----
+A,.5,-.2,["HWLT",STANDARD,S=.08,U=0.0,X=-.16,Y=-.04],-.2
+*Low_Water_Large_Tide,Low Water Large Tide Metric ---- LWLT ---- LWLT ---- LWLT ----
+A,.5,-.2,["LWLT",STANDARD,S=.08,U=0.0,X=-.16,Y=-.04],-.2
+
