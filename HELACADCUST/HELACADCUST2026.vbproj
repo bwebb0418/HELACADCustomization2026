@@ -28,14 +28,14 @@
     <PlatformTarget>x64</PlatformTarget>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
-    <OutputPath>..\helacad2026.bundle\Contents\x64\</OutputPath>
+    <OutputPath>..\HELACADCUST_Installer\helacad2026.bundle\Contents\x64\</OutputPath>
     <DocumentationFile>HELACADCUST2026.xml</DocumentationFile>
     <WarningsAsErrors>41998,42004,42024,42026,42029,42031,42099,42353,42354,42355</WarningsAsErrors>
     <UseVSHostingProcess>false</UseVSHostingProcess>
     <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
-    <OutputPath>..\helacad2026.bundle\Contents\x64\</OutputPath>
+    <OutputPath>..\HELACADCUST_Installer\helacad2026.bundle\Contents\x64\</OutputPath>
     <DocumentationFile>HELACADCUST2026.xml</DocumentationFile>
     <WarningsAsErrors>41998,42004,42024,42026,42029,42031,42099,42353,42354,42355</WarningsAsErrors>
     <UseVSHostingProcess>false</UseVSHostingProcess>
