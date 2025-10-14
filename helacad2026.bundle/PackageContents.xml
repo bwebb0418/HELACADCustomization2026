@@ -1,46 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ApplicationPackage
-  SchemaVersion="1.0"
-  AutodeskProduct="AutoCAD|AutoCAD*"
-  ProductType="Application"
-  Name="HEL-Customization-2026"
-  Description="Herold Engineering's AutoCAD 2026 Customization"
-  Author="BWEBB">
-
-  <CompanyDetails Name="Herold Engineering" />
-
-  <Components>
-    <!-- DLL -->
-    <ComponentEntry
-      AppName="HELACADCUST2026"
-      ModuleName="./Contents/x64/HELACADCUST2026.dll"
-      AppDescription="Herold Engineering's AutoCAD 2026 Customization"
-      LoadOnAutoCADStart="True">
-      <RuntimeRequirements
-        OS="Win64"
-        Platform="AutoCAD"
-        SeriesMin="R25.1"
-        SeriesMax="R26.0"
-        SupportPath="./Contents/Resources;
-                     ./Contents/Resources/Blocks;
-                     ./Contents/Resources/Fonts;
-                     ./Contents/Resources/Lisp;
-                     ./Contents/Resources/Menu;
-                     ./Contents/Resources/Patterns;
-                     ./Contents/Resources/Titleblocks;
-                     M:/Structural/R2026/Menu;
-                     M:/Structural/R2026/Steel Plus/VR2023;
-                     M:/Structural/R2026/Steel Plus/VR2023/support" />
-    </ComponentEntry>
-
-    <!-- CUIX -->
-    <ComponentEntry
-      AppName="HELACADCUIX2026"
-      ModuleName="./Contents/Resources/Menu/HEL-ACAD-2026.cuix"
-      AppDescription="Herold Engineering's AutoCAD 2026 Customization CUIX"
-      LoadOnAutoCADStart="True">
-      <CuiFile Name="HEL-ACAD-2026.cuix"
-               RelativePath="./Contents/Resources/Menu/HEL-ACAD-2026.cuix" />
-    </ComponentEntry>
-  </Components>
+<ApplicationPackage SchemaVersion="1.0"
+	AutodeskProduct="AutoCAD"
+	Producttype="Application"
+	Name="HEL-Customization-2026"
+	DESCRIPTION="Herold Engineering's AutoCAD 2026 Customization" 
+	Author="BWEBB">
+<Components>
+<RuntimeRequirements SupportPath="./Contents/Resources;./Contents/Resources/Blocks;./Contents/Resources/Fonts;./Contents/Resources/Lisp;./Contents/Resources/Menu;./Contents/Resources/Patterns;./Contents/Resources/Titleblocks;M:/Structural/R2026/Menu;M:/Structural/R2026/Steel Plus/VR2023;M:/Structural/R2026/Steel Plus/VR2023/support"
+	Platform="AutoCAD" 
+	OS="Win64" 
+	SeriesMin="R25.1" SeriesMax="R25.2" />
+<ComponentEntry AppName="HELACADCUST2026" 
+	ModuleName="./Contents/x64/HELACADCUST2026.dll" 
+	APPDESCRIPTION="Herold Engineering's AutoCAD 2026 Customization" 
+	LoadOnAutoCADStart="True" />
+<ComponentEntry AppName="HELACADCUIX2026" 
+	ModuleName="./Contents/Resources/Menu/HEL-ACAD-2026.cuix" 
+	APPDESCRIPTION="Herold Engineering's AutoCAD 2026 Customization CUIX" 
+	LoadOnAutoCADStart="True">
+</ComponentEntry>
+</Components>
 </ApplicationPackage>
