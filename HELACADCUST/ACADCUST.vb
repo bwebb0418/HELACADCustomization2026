@@ -462,33 +462,8 @@ rerun:
         doc.SendStringToExecute("Cleanscreenoff ", True, False, False)
         Dim ed As Editor = doc.Editor
         ed.WriteMessage(vbLf & "HEL Customization Loaded" & vbLf & "Version {0}.{1}.{2}" & vbLf, My.Application.Info.Version.Major, My.Application.Info.Version.Minor, My.Application.Info.Version.Build) ', My.Application.Info.Version.Revision)
-        Application.SetSystemVariable("trustedpaths", "C:\ProgramData\AutoDesk\ApplicationPlugins\helacad2026.bundle\Contents...;M:\Structural\r2026\...")
+        Application.SetSystemVariable("trustedpaths", "%appdata%\AutoDesk\ApplicationPlugins\helacad2026.bundle\Contents...;M:\Structural\r2026\...")
 
-        ' Set support paths
-        Dim bundlePath As String = "C:\ProgramData\AutoDesk\ApplicationPlugins\helacad2026.bundle\"
-        Dim desiredPaths As New List(Of String) From {
-            bundlePath + "Contents\Resources",
-            bundlePath + "Contents\Resources\Blocks",
-            bundlePath + "Contents\Resources\Fonts",
-            bundlePath + "Contents\Resources\Lisp",
-            bundlePath + "Contents\Resources\Menu",
-            bundlePath + "Contents\Resources\Patterns",
-            bundlePath + "Contents\Resources\Titleblocks",
-            "M:\Structural\R2026\Menu",
-            "M:\Structural\R2026\Steel Plus\VR2023",
-            "M:\Structural\R2026\Steel Plus\VR2023\support"
-        }
-
-        Dim currentSupport As String = Application.Preferences.Files.SupportPath
-        Dim currentPaths As List(Of String) = If(String.IsNullOrEmpty(currentSupport), New List(Of String)(), currentSupport.Split(";"c).ToList())
-
-        For Each path As String In desiredPaths
-            If Not currentPaths.Contains(path) Then
-                currentPaths.Add(path)
-            End If
-        Next
-
-        Application.Preferences.Files.SupportPath = String.Join(";", currentPaths)
     End Sub
 
 
