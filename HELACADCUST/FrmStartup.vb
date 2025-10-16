@@ -6,6 +6,9 @@ Imports Autodesk.AutoCAD.EditorInput
 Imports Autodesk.AutoCAD.ApplicationServices
 Imports Autodesk.AutoCAD.Geometry
 Imports Autodesk.AutoCAD.Windows
+Imports System.Diagnostics
+Imports System.Reflection
+
 
 Public Class FrmStartup
 
@@ -367,13 +370,15 @@ Public Class FrmStartup
 
     End Function
 
+    ' Private Sub FrmStartup_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+    '     Label3.Text = "Version " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build ' & "." & My.Application.Info.Version.Revision
+    ' End Sub
+
     Private Sub FrmStartup_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
-        Label3.Text = "Version " & My.Application.Info.Version.Major & "." & My.Application.Info.Version.Minor & "." & My.Application.Info.Version.Build ' & "." & My.Application.Info.Version.Revision
+        Dim now As DateTime = DateTime.Now
+        Dim version As String = now.ToString("yy") & "." & now.ToString("MM") & "." & now.ToString("dd") & ".0"  ' Adjust revision as needed
+        Label3.Text = "Version " & version
     End Sub
-
-
-
-
 
     Private Sub btnClient_Click(sender As Object, e As EventArgs) Handles btnClient.Click
         Dim MBoxResult As MsgBoxResult

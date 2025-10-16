@@ -12,9 +12,6 @@
     <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
     <NeutralLanguage>en-CA</NeutralLanguage>
 	  <Deterministic>false</Deterministic>
-	  <Year>$([System.DateTime]::Now.ToString(yy))</Year>
-	  <Month>$([System.DateTime]::Now.ToString(MM))</Month>
-	  <Day>([System.DateTime]::Now.ToString(dd))</Day>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <StartAction>Program</StartAction>
