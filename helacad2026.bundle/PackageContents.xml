@@ -6,7 +6,7 @@
 	DESCRIPTION="Herold Engineering's AutoCAD 2026 Customization" 
 	Author="BWEBB">
 <Components>
-<RuntimeRequirements SupportPath="./Contents/Resources;./Contents/Resources/Blocks;./Contents/Resources/Fonts;./Contents/Resources/Lisp;./Contents/Resources/Menu;./Contents/Resources/Patterns;./Contents/Resources/Titleblocks;M:/Structural/R2026/Menu;M:/Structural/R2026/Steel Plus/VR2023;M:/Structural/R2026/Steel Plus/VR2023/support"
+<RuntimeRequirements SupportPath="./Contents/Resources;./Contents/Resources/Blocks;./Contents/Resources/Fonts;./Contents/Resources/Lisp;./Contents/Resources/Menu;./Contents/Resources/Patterns;./Contents/Resources/Titleblocks;M:/Structural/R2026/Menu;M:/Structural/R2026/Steel Plus/VR2026;M:/Structural/R2026/Steel Plus/VR2026/support"
 	Platform="AutoCAD" 
 	OS="Win64" 
 	SeriesMin="R25.1" SeriesMax="R25.2" />
